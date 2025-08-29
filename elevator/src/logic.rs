@@ -1,7 +1,7 @@
 pub const LOWEST_FLOOR: u8 = 1;
 pub const HIGHEST_FLOOR: u8 = 5;
 
-const NUM_FLOORS: u8 = HIGHEST_FLOOR - LOWEST_FLOOR + 1;
+pub const NUM_FLOORS: u8 = HIGHEST_FLOOR - LOWEST_FLOOR + 1;
 
 #[derive(Debug, PartialEq)]
 pub enum Command {
